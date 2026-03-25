@@ -1,8 +1,8 @@
 import React from 'react'
 import { GlobalProvider } from './context/GlobalState'
-import Header from './components/Header' 
+import Header from './components/Header'
 import Balance from './components/Balance'
-import ingresosEgresos from './components/ingresosEgresos'
+import IngresosEgresos from './components/ingresosEgresos'
 import MovimientosLista from './components/MovimientosLista'
 import AddForm from './components/addForm'
 
@@ -12,7 +12,7 @@ const App = () => {
       <Header />
       <div className="container">
         <Balance />
-        <ingresosEgresos />
+        <IngresosEgresos />
         <MovimientosLista />
         <AddForm />
       </div>
